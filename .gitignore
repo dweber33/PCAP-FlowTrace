@@ -1,0 +1,15 @@
+# Ignore sample data and all output files
+Sample_Data/
+output/*
+
+# Keep the output directory in Git but ignore its contents
+!output/.gitkeep
+
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Build artifacts
+build/
+dist/
+*.spec
